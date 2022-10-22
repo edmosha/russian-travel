@@ -1,0 +1,8 @@
+.card__link-title {
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #aaa;
+}

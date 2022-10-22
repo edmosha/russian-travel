@@ -1,0 +1,21 @@
+ .cover__bg-image {
+  width: 100%;
+  padding-bottom: 100%;
+  background: url('../../../image/cover-trains.jpg') no-repeat top 0 left 0 / contain;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  */
+ }
+ 
+ .cover__bg-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2a2c2f;
+  opacity: .3;
+  z-index: 1;
+ }

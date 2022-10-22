@@ -1,0 +1,11 @@
+.card__text {
+  line-height: 29px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.card__text:last-of-type {
+  margin-bottom: 0;
+}

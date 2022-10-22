@@ -1,0 +1,6 @@
+.card {
+  display: grid;
+  grid-template-columns: fit-content(460px) 1fr;
+  grid-template-rows: auto-fit 1fr;
+  gap: 48px 40px;
+}
