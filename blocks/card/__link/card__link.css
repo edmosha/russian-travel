@@ -3,4 +3,9 @@
   font-size: 18px;
   font-weight: 400;
   color: #fff;
+  transition: opacity 0.2s linear;
+}
+
+.card__link:hover {
+  opacity: .8;
 }

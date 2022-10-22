@@ -62,10 +62,16 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__title-link/cover__title-link.css);
 @import url(../blocks/cover/__bg-image/cover__bg-image.css);
+@import url(../blocks/cover/__text-container/cover__text-container.css);
 
+/* footer */
 
-
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__author-name/footer__author-name.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
 
 
 
