@@ -5,3 +5,16 @@
 .places__item:last-of-type {
   margin-bottom: 0;
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__item {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__item {
+    margin-bottom: 50px;
+  }
+}

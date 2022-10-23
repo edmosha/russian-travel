@@ -1,3 +1,11 @@
 .card__text-container {
   align-self: start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .card__text-container {
+    padding: 0 16px;
+  }
 }

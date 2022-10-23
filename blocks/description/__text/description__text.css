@@ -5,3 +5,15 @@
   font-size: 16px;
   font-weight: 400;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .description__text {
+    max-width: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description__text {
+    max-width: auto;
+  }
+}

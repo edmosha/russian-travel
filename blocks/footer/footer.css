@@ -4,3 +4,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 767px) {
+  .footer {
+    margin: 62px 0 24px 16px;
+    flex-direction: column;
+  }
+}
