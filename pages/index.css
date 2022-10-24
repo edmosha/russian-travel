@@ -33,8 +33,10 @@
 @import url(../blocks/description/__statistics/descriptin__statistics.css);
 @import url(../blocks/description/__text/description__text.css);
 @import url(../blocks/description/__title/description__title.css);
+
 @import url(../blocks/description/__statistics-item/_accent/description__statistics-item_accent.css);
-@import url(../blocks/description/__item_accent/description__item_accent.css);
+
+/* item_accent не по БЭМ, фиксануть */
 
 /* galery */
 
