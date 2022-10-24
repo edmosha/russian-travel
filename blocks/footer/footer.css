@@ -5,7 +5,23 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .footer {
+    min-width: 928px;
+    max-width: 1184px;
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    min-width: 720px;
+    max-width: 928px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .footer {
     margin: 62px 0 24px 16px;
     flex-direction: column;
