@@ -4,14 +4,15 @@
   margin-bottom: 92px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .description {
     min-width: 928px;
     max-width: 984px;
+    padding: 0 35px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .description {
     min-width: 720px;
     max-width: 928px;
@@ -20,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .description {
     min-width: 288px;
     max-width: 720px;
