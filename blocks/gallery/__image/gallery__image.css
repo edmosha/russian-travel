@@ -4,26 +4,3 @@
   object-fit: cover;
   object-position: center;
 }
-
-/* @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .gallery__image {
-    max-width: 300px;
-   }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .gallery__image {
-    max-width: 352px;
-   }
-} */
-
-/* @media screen and (max-width: 767px) {
-  .gallery__image {
-    max-width: 288px;
-    margin-bottom: 12px;
-   }
-
-   .gallery__image:last-of-type {
-    margin-bottom: 0;
-   }
-} */
