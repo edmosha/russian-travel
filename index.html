@@ -15,10 +15,10 @@
 <body class="page">
   <header class="header">
     <img src="./image/header-logo.svg" class="header__logo" alt="Логотип Россия">
-    <div class="header__lang-buttons">
-      <a class="header__button header__button_focus">Ru</a>
-      <a class="header__button">En</a>
-    </div>
+    <ul class="header__lang-links">
+      <a href="#" class="header__link header__link_focus">Ru</a>
+      <a href="#" class="header__link">En</a>
+    </ul>
   </header>
   <main class="content">
     <section class="travel">
@@ -78,18 +78,45 @@
     </section>
 
     <section class="gallery">
-      <img class="gallery__image" src="./image/photo-grid-train.jpg" alt="вид из окна поезда, солнечная погода и лесная поляна">
-      <img class="gallery__image" src="./image/photo-grid-atharva-tulsi.jpg" alt="вершины гор окутанные облаками и солнечным светом">
-      <img class="gallery__image" src="./image/photo-grid-tuman.jpg" alt="поле, утро, туманно, на скрученом сене стоит собака">
-      <img class="gallery__image" src="./image/photo-grid-sochi.jpg" alt="верхушки деревьев в тумане">
-      <img class="gallery__image" src="./image/photo-grid-arisa.jpg" alt="крупным планом колесо машины на тостом голубом льду">
-      <img class="gallery__image" src="./image/photo-grid-baikal.jpg" alt="пляж Байкала. волны озера, оранжевый песок и горы на фоне">
-      <img class="gallery__image" src="./image/photo-grid-elbrus.jpg" alt="серые горы с заснеженными белыми вершинами">
-      <img class="gallery__image" src="./image/photo-grid-kondratiev.jpg" alt="крупным планом знак пешеходного перехода на фоне бетонных блоков">
-      <img class="gallery__image" src="./image/photo-grid-kamchatka-1.jpg" alt="горные вершины крупным планом, покрыты мхом, вокруг туман, горная речка">
-      <img class="gallery__image" src="./image/photo-grid-kamchatka-2.jpg" alt="черная земляная поляна с растущей пятнами травой, на фоне большая гора окутанная лучами солнца">
-      <img class="gallery__image" src="./image/photo-grid-baikal-2.jpg" alt="горный утес крупным планом, слева внизу видна часть голубого льда, утес присыпан снегом">
-      <img class="gallery__image" src="./image/photo-grid-ergaki.jpg" alt="зеленоватый горный холм, весь окутанный туманом">
+      <ul class="galley__image-container">
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-train.jpg" alt="вид из окна поезда, солнечная погода и лесная поляна">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-atharva-tulsi.jpg" alt="вершины гор окутанные облаками и солнечным светом">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-tuman.jpg" alt="поле, утро, туманно, на скрученом сене стоит собака">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-sochi.jpg" alt="верхушки деревьев в тумане">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-arisa.jpg" alt="крупным планом колесо машины на тостом голубом льду">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-baikal.jpg" alt="пляж Байкала. волны озера, оранжевый песок и горы на фоне">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-elbrus.jpg" alt="серые горы с заснеженными белыми вершинами">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-kondratiev.jpg" alt="крупным планом знак пешеходного перехода на фоне бетонных блоков">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-kamchatka-1.jpg" alt="горные вершины крупным планом, покрыты мхом, вокруг туман, горная речка">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-kamchatka-2.jpg" alt="черная земляная поляна с растущей пятнами травой, на фоне большая гора окутанная лучами солнца">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-baikal-2.jpg" alt="горный утес крупным планом, слева внизу видна часть голубого льда, утес присыпан снегом">
+        </li>
+        <li>
+          <img class="gallery__image" src="./image/photo-grid-ergaki.jpg" alt="зеленоватый горный холм, весь окутанный туманом">
+        </li>
+      </ul>
+      
     </section>
 
     <section class="places">
@@ -97,7 +124,7 @@
       <div class="card places__item">
         <h2 class="card__title">Куршская коса</h2>
         <div class="card__link-container">
-          <p class="card__link-title">Url</p>
+          <h3 class="card__link-title">Url</h3>
           <a class="card__link" href="http://park-kosa.ru" target="_blank" rel="noopener noreferrer">park-kosa.ru</a>
         </div>
         <img class="card__image" src="./image/place-kosa.jpg" alt="залив, воднная гладь в которой крупным планом лежат коряги и камни">
@@ -120,7 +147,7 @@
       <div class="card places__item">
         <h2 class="card__title">Кольский</h2>
         <div class="card__link-container">
-          <p class="card__link-title">Url</p>
+          <h3 class="card__link-title">Url</h3>
           <a class="card__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" rel="noopener noreferrer">National Geographic</a>
         </div>
         <img class="card__image" src="./image/place-kolsky.jpg" alt="заснеженная горная местность, крупная часть горы на дальнем плане">
@@ -142,7 +169,7 @@
       <div class="card places__item">
         <h2 class="card__title">Алтай</h2>
         <div class="card__link-container">
-          <p class="card__link-title">Url</p>
+          <h3 class="card__link-title">Url</h3>
           <a class="card__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" rel="noopener noreferrer">Facebook</a>
         </div>
         <img class="card__image" src="./image/place-altai.jpg" alt="зеленый лесной пейзаж из окна, крупным планом ноутбук стоящий на столе">
@@ -164,7 +191,7 @@
       <div class="card places__item">
         <h2 class="card__title">Зимний Байкал</h2>
         <div class="card__link-container">
-          <p class="card__link-title">Url</p>
+          <h3 class="card__link-title">Url</h3>
           <a class="card__link" href="https://vk.com/baikalmile" target="_blank" rel="noopener noreferrer">https://vk.com/baikalmile</a>
         </div>
         <img class="card__image" src="./image/place-winter-baikal.jpg" alt="макросъемка, толстый синий лед, который рассекают множество белый трещин">
@@ -185,7 +212,7 @@
       <div class="card places__item">
         <h2 class="card__title">Карелия</h2>
         <div class="card__link-container">
-          <p class="card__link-title">Url</p>
+          <h3 class="card__link-title">Url</h3>
           <a class="card__link" href="http://vodlozero.ru" target="_blank" rel="noopener noreferrer">http://vodlozero.ru/</a>
         </div>
         <img class="card__image" src="./image/place-karelia.jpg" alt="лес, последи которого течет большая река, крупным планом размытые ветки деревьев">
@@ -204,7 +231,7 @@
     </section>
 
     <section class="cover">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank" rel="noopener noreferrer">
+      <!-- <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank" rel="noopener noreferrer">
         <div class="cover__bg-image"></div>
         <div class="cover__text-container">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
@@ -212,6 +239,13 @@
             По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
           </p>
         </div>
+      </a> -->
+
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank" rel="noopener noreferrer">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+          </p>
       </a>
     </section>
   </main>

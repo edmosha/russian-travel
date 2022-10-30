@@ -1,5 +1,5 @@
 .travel__subtitle {
-  margin: 32px 0 64px 0;
+  margin: 32px 0 64px;
   max-width: 640px;
   line-height: 36px;
   font-size: 30px;
@@ -7,8 +7,15 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-width: 1279px) {
   .travel__subtitle {
+    margin: 32px 0 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .travel__subtitle {
+    margin: 16px 0 40px;
     max-width: 299px;
     line-height: 20px;
     font-size: 16px;
