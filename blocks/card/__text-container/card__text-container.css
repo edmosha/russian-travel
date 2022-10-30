@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card__text-container {
     padding: 0 16px;
   }

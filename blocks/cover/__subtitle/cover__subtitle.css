@@ -5,9 +5,10 @@
   text-align: center;
   margin: 0;
   max-width: 360px;
+  z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover__subtitle {
     min-width: 288px;
     line-height: 16px;

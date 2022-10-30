@@ -5,14 +5,14 @@
   margin: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .card__title {
     line-height: 46px;
     font-size: 42px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card__title {
     line-height: 35px;
     font-size: 32px;

@@ -2,7 +2,7 @@
   align-self: end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card__link-container {
     margin: 0 16px;
     align-self: flex-start;
