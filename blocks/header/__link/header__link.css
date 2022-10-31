@@ -5,6 +5,11 @@
   text-decoration: none;
   color: #fff;
   padding-bottom: 6px;
+  transition: opacity 0.2s linear;
+}
+
+.header__link:hover {
+  opacity: .8;
 }
 
 @media screen and (max-width: 767px) {
